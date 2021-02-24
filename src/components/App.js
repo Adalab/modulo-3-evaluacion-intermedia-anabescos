@@ -1,9 +1,9 @@
-import React from "react";
+import data from "../data/data.json";
+import Pokelist from "./Pokelist";
 
-class App extends React.Component {
-  render() {
-    return <div className="App">Hello World!</div>;
-  }
+function App() {
+  console.log(data);
+  return <div className="App">{/* <Pokelist /> */}</div>;
 }
 
 export default App;

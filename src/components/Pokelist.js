@@ -1,4 +1,5 @@
 import Pokemon from "./Pokemon";
+import "../stylesheets/pokelist.scss";
 
 function Pokelist(props) {
   const PokemonList = props.pokemons.map((eachPokemon) => (
@@ -10,7 +11,7 @@ function Pokelist(props) {
       />
     </li>
   ));
-  return <ul>{PokemonList}</ul>;
+  return <ul className="container__title--pokelist">{PokemonList}</ul>;
 }
 
 export default Pokelist;

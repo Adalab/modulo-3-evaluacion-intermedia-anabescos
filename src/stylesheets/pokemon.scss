@@ -1,0 +1,27 @@
+.card {
+  border: yellow solid 5px;
+  border-radius: 20px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px #03030394;
+  &__img {
+    width: 100px;
+  }
+  &__name {
+    color: white;
+  }
+  &__types {
+    display: flex;
+    padding: 0;
+    &--type {
+      color: white;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import { useState } from "react";
 import "../stylesheets/App.scss";
 
 function App() {
-  const [data, setData] = useState(pokemonData);
+  const [data] = useState(pokemonData);
   return (
     <div className="container">
       <h1 className="container__title">
